@@ -88,6 +88,36 @@
 			<version>4.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- JSF -->
+		<dependency>
+			<groupId>jakarta.faces</groupId>
+			<artifactId>jakarta.faces-api</artifactId>
+			<version>3.0.0</version> <!-- Use a versão adequada para o seu projeto -->
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- CDI (Contexts and Dependency Injection) -->
+		<dependency>
+			<groupId>jakarta.enterprise</groupId>
+			<artifactId>jakarta.enterprise.cdi-api</artifactId>
+			<version>3.0.0</version> <!-- Use a versão adequada -->
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- Servlets (necessário para JSF e CDI em alguns casos) -->
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>5.0.0</version> <!-- Use a versão adequada -->
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.inject</groupId>
+			<artifactId>jakarta.inject-api</artifactId>
+			<version>2.0.0</version>
+			<scope>provided</scope> <!-- Fornecido pelo servidor -->
+		</dependency>
+
 	</dependencies>
 
 	<build>
